@@ -370,3 +370,156 @@
     height: 44px;
   }
 }
+
+/*section browse-the-range*/
+#browse-the-range {
+  width: 1183px;
+  height: 685px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.browse-section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.browse-header {
+  color: #333;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.browse-lorem-paragraph {
+  padding-bottom: 50px;
+  color: #666;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.browse-area-card {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.browse-card {
+  width: 381px;
+  height: 480px;
+}
+
+.browse-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.browse-title-card {
+  color: #333;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #browse-the-range {
+    width: 926px;
+    height: 685px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  #browse-the-range {
+    width: 669px;
+    height: auto;
+  }
+
+  .browse-header {
+    font-size: 30px;
+  }
+
+  .browse-lorem-paragraph {
+    font-size: 18px;
+  }
+
+  .browse-area-card {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+  .browse-card {
+    width: 381px;
+    height: 450px;
+  }
+
+  .browse-title-card {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #browse-the-range {
+    width: 412px;
+    height: auto;
+  }
+
+  .browse-header {
+    font-size: 28px;
+  }
+
+  .browse-lorem-paragraph {
+    font-size: 16px;
+  }
+
+  .browse-area-card {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+  .browse-card {
+    width: 340px;
+    height: 400px;
+  }
+
+  .browse-title-card {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  #browse-the-range {
+    width: 300px;
+    height: auto;
+  }
+
+  .browse-header {
+    font-size: 26px;
+  }
+
+  .browse-lorem-paragraph {
+    font-size: 14px;
+  }
+
+  .browse-area-card {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+  .browse-card {
+    width: 300px;
+    height: 350px;
+  }
+
+  .browse-title-card {
+    font-size: 20px;
+  }
+}
