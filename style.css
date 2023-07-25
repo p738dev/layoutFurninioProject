@@ -1413,6 +1413,10 @@
 }
 
 /*footer*/
+#footer {
+  border-top: 1px solid #000;
+}
+
 .footer-container {
   width: 1440px;
   height: 446px;
