@@ -814,3 +814,283 @@
     height: 35px;
   }
 }
+
+/*section beautifull-rooms*/
+#beautiful-rooms {
+  width: 1440px;
+  height: 670px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #fcf8f3;
+  display: flex;
+}
+
+.beautiful-left-side {
+  width: 564px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 30px;
+}
+
+.bautiful-area-left-side-title {
+  width: 422px;
+  height: 151px;
+  margin: 0 auto;
+}
+
+.beautiful-rooms-header {
+  color: #3a3a3a;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.beautiful-our-designer-paragraph {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.explore-more-button {
+  width: 176px;
+  height: 48px;
+  margin-left: 18px;
+  background-color: #b88e2f;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #b88e2f;
+  cursor: pointer;
+}
+
+.bautiful-right-side {
+  width: 1196px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  overflow: hidden;
+}
+
+.beautiful-image-one {
+  width: 404px;
+  height: 582px;
+  position: relative;
+}
+
+.image_one,
+.image_two,
+.image_three {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.beautiful-image-two {
+  width: 372px;
+  height: 486px;
+}
+
+.beautiful-image-three {
+  width: 160px;
+  height: 486px;
+}
+
+.inner-peace-area {
+  display: flex;
+}
+
+.inner-peace {
+  width: 217px;
+  height: 130px;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+.bed-room-paragraph {
+  color: #616161;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.inner-peace-header {
+  color: #3a3a3a;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.cta-image {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: 40px;
+  left: 257px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #beautiful-rooms {
+    width: 1032px;
+  }
+
+  .beautiful-left-side {
+    width: 550px;
+    padding: 0 15px;
+  }
+
+  .beautiful-rooms-header {
+    font-size: 36px;
+  }
+
+  .bautiful-right-side {
+    width: 953px;
+  }
+
+  .beautiful-image-one {
+    width: 400px;
+  }
+
+  .beautiful-image-two {
+    width: 280px;
+  }
+
+  .beautiful-image-three {
+    width: 20px;
+    height: 486px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  #beautiful-rooms {
+    width: 849px;
+  }
+
+  .beautiful-left-side {
+    width: 534px;
+    padding: 0 15px;
+  }
+
+  .beautiful-rooms-header {
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  .beautiful-our-designer-paragraph {
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  .explore-more-button {
+    margin-left: 2px;
+  }
+
+  .bautiful-right-side {
+    width: 710px;
+  }
+
+  .beautiful-image-two {
+    display: none;
+  }
+
+  .beautiful-image-three {
+    display: none;
+  }
+
+  .inner-peace-header {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #beautiful-rooms {
+    width: 606px;
+  }
+
+  .beautiful-left-side {
+    width: 400px;
+    padding: 0 15px;
+  }
+
+  .bautiful-area-left-side-title {
+    width: 360px;
+  }
+
+  .beautiful-rooms-header {
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .beautiful-our-designer-paragraph {
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  .explore-more-button {
+    margin-left: 2px;
+  }
+
+  .bautiful-right-side {
+    width: 467px;
+  }
+
+  .beautiful-image-two {
+    display: none;
+  }
+
+  .beautiful-image-three {
+    display: none;
+  }
+
+  .inner-peace-area {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #beautiful-rooms {
+    width: 606px;
+  }
+
+  .beautiful-left-side {
+    width: 600px;
+  }
+
+  .bautiful-area-left-side-title {
+    width: 360px;
+  }
+
+  .beautiful-rooms-header {
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .beautiful-our-designer-paragraph {
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  .explore-more-button {
+    margin: 0 auto;
+  }
+
+  .bautiful-right-side {
+    display: none;
+  }
+}
