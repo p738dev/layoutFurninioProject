@@ -523,3 +523,294 @@
     font-size: 20px;
   }
 }
+
+/*section our products*/
+#our-products {
+  width: 1236px;
+  height: 1084px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.our-section-header {
+  display: flex;
+  justify-content: center;
+}
+
+.our-header {
+  padding-bottom: 50px;
+  color: #3a3a3a;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.our-cards {
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  column-gap: 10px;
+  row-gap: 30px;
+}
+
+.our-card {
+  width: 285px;
+  height: 446px;
+}
+
+.our-image-area {
+  width: 100%;
+  height: 301px;
+  position: relative;
+}
+
+.our-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.our-circle-percent {
+  width: 48px;
+  height: 48px;
+  background-color: #e97171;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  left: 200px;
+}
+
+.circle-percent-titile {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.our-circle-green {
+  width: 48px;
+  height: 48px;
+  background-color: #2ec1ac;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  left: 200px;
+}
+
+.our-desc {
+  width: 100%;
+  height: 145px;
+  padding: 10px 5px;
+  background-color: #f4f5f7;
+  display: flex;
+  flex-direction: column;
+}
+
+.our-desc-header {
+  padding: 10px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.our-desc-paragraph {
+  padding: 0 10px;
+  padding-bottom: 5px;
+  color: #898989;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.our-desc-rp-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.our-desc-rp-header {
+  padding: 0 10px;
+  color: #3a3a3a;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.our-desc-rp-paragraph {
+  color: #b0b0b0;
+  text-decoration: line-through;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.our-area-show-button {
+  display: flex;
+  justify-content: center;
+}
+
+.our-show-more-button {
+  width: 245px;
+  height: 48px;
+  color: #b88e2f;
+  background-color: #fff;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #b88e2f;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #our-products {
+    width: 1032px;
+    height: auto;
+  }
+
+  .our-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  #our-products {
+    width: 828px;
+    height: auto;
+  }
+
+  .our-header {
+    font-size: 38px;
+  }
+
+  .our-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-card {
+    width: 285px;
+    height: 430px;
+  }
+
+  .our-image-area {
+    height: 290px;
+  }
+
+  .our-desc-header {
+    font-size: 22px;
+  }
+
+  .our-desc-paragraph {
+    font-size: 14px;
+  }
+
+  .our-desc-rp-header {
+    font-size: 18px;
+  }
+
+  .our-desc-rp-paragraph {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #our-products {
+    width: 624px;
+    height: auto;
+  }
+
+  .our-header {
+    font-size: 36px;
+  }
+
+  .our-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-card {
+    width: 285px;
+    height: 400px;
+  }
+
+  .our-image-area {
+    height: 270px;
+  }
+
+  .our-desc-header {
+    font-size: 20px;
+  }
+
+  .our-desc-paragraph {
+    font-size: 12px;
+  }
+
+  .our-desc-rp-header {
+    font-size: 16px;
+  }
+
+  .our-desc-rp-paragraph {
+    font-size: 12px;
+  }
+
+  .our-show-more-button {
+    width: 235px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  #our-products {
+    width: 420px;
+    height: auto;
+  }
+
+  .our-header {
+    font-size: 34px;
+  }
+
+  .our-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .our-card {
+    width: 285px;
+    height: 380px;
+  }
+
+  .our-image-area {
+    height: 250px;
+  }
+
+  .our-desc-header {
+    font-size: 18px;
+  }
+
+  .our-desc-paragraph {
+    font-size: 12px;
+  }
+
+  .our-desc-rp-header {
+    font-size: 16px;
+  }
+
+  .our-desc-rp-paragraph {
+    font-size: 12px;
+  }
+
+  .our-show-more-button {
+    width: 225px;
+    height: 35px;
+  }
+}
