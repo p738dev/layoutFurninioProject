@@ -187,3 +187,186 @@
     display: block;
   }
 }
+
+/*section discover-new-collection*/
+#discover-new-collection {
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.image-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.discover-area {
+  width: 643px;
+  height: 443px;
+  padding: 50px 30px;
+  background-color: #fff3e3;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  border: none;
+}
+
+.discover-content {
+  width: 561;
+  height: 344px;
+}
+
+.new-arrival-paragraph {
+  color: #333;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.discover-new-collection-header {
+  color: #b88e2f;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+}
+
+.paragraph-desc {
+  padding-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.button-buy-area {
+  width: 222px;
+  height: 74px;
+  background-color: #b88e2f;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #discover-new-collection {
+    width: 1200px;
+  }
+
+  .discover-area {
+    width: 543px;
+    height: 343px;
+  }
+
+  .discover-new-collection-header {
+    font-size: 42px;
+    line-height: 55px;
+  }
+
+  .paragraph-desc {
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .button-buy-area {
+    height: 54px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  #discover-new-collection {
+    width: 960px;
+  }
+
+  .discover-area {
+    width: 443px;
+    height: 343px;
+    top: 12%;
+  }
+
+  .discover-new-collection-header {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .paragraph-desc {
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .button-buy-area {
+    height: 54px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #discover-new-collection {
+    width: 720px;
+  }
+
+  .discover-area {
+    width: 343px;
+    height: 243px;
+    padding: 20px 10px;
+    top: 16%;
+    left: 48%;
+  }
+
+  .discover-new-collection-header {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .paragraph-desc {
+    padding-bottom: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .button-buy-area {
+    height: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  #discover-new-collection {
+    width: 480px;
+  }
+
+  .discover-area {
+    width: 430px;
+    height: 190px;
+    padding: 10px;
+    top: 10%;
+    left: 5%;
+  }
+
+  .discover-new-collection-header {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .paragraph-desc {
+    padding-bottom: 10px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .button-buy-area {
+    height: 44px;
+  }
+}
